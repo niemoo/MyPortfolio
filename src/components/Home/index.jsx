@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import Izzan from '@/components/assets/images/izzan.png';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import 'animate.css';
 import Link from 'next/link';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Izzan from '@/components/assets/images/izzan.png';
+import 'animate.css';
 
 const SectionHome = () => {
   return (
@@ -11,7 +11,7 @@ const SectionHome = () => {
         <div className="">
           <h1 className="animate__animated animate__fadeInUp animate__faster text-5xl font-bold">Hi!</h1>
           <h1 className="animate__animated animate__fadeInUp animate__fast text-5xl font-bold">
-            It's me <span className="text-emerald-500">Izzan</span>
+            It's me <span className="text-emerald-500 [text-shadow:1px_1px_1px_var(--tw-shadow-color)] shadow-white">Izzan</span>
           </h1>
         </div>
         <div className="absolute before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]"></div>
