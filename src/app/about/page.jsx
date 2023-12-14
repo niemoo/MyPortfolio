@@ -15,7 +15,7 @@ const About = () => {
           <TechStack />
         </div>
         <div className="mt-5">
-          <Image src={Izzan} className="rounded-md mt-16 animate__animated animate__fadeInUp animate__fast" />
+          <Image src={Izzan} className="rounded-md animate__animated animate__fadeInUp animate__fast" />
           <Contact />
         </div>
       </div>
